@@ -3,6 +3,7 @@ import React from 'react'
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
 import Playlist from '../Playlist/Playlist';
+import MuiPract from './MuiPract';
 
 const AllComponent = () => {
   return (
@@ -13,6 +14,8 @@ const AllComponent = () => {
         <SearchResults />
         <Playlist />
       </div>
+
+      <MuiPract/>
     </div>
   )
 }
